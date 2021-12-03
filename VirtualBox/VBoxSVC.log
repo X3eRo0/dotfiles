@@ -1,0 +1,41 @@
+00:00:00.003269 main     VirtualBox XPCOM Server 6.1.28 r147628 linux.amd64 (Oct 20 2021 21:54:22) release log
+00:00:00.003271 main     Log opened 2021-12-03T04:40:33.990444000Z
+00:00:00.003271 main     Build Type: release
+00:00:00.003273 main     OS Product: Linux
+00:00:00.003274 main     OS Release: 5.13.19-2-MANJARO
+00:00:00.003275 main     OS Version: #1 SMP PREEMPT Sun Sep 19 21:31:53 UTC 2021
+00:00:00.003289 main     DMI Product Name: MS-7A15
+00:00:00.003294 main     DMI Product Version: 1.0
+00:00:00.003297 main     Firmware type: UEFI
+00:00:00.003536 main     Secure Boot: Disabled
+00:00:00.003577 main     Host RAM: 7919MB (7.7GB) total, 6947MB (6.7GB) available
+00:00:00.003579 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.003579 main     Process ID: 1715
+00:00:00.003579 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.004932 main     IPC socket path: /tmp/.vbox-x3ero0-ipc/ipcd
+00:00:00.117597 nspr-2   VirtualBox: object creation starts
+00:00:00.117662 nspr-2   Home directory: '/home/x3ero0/.config/VirtualBox'
+00:00:00.119292 nspr-2   Loading settings file "/home/x3ero0/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.137252 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f0u3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.138834 nspr-2   HostDnsMonitor: initializing
+00:00:00.139145 nspr-2   NAT: resolv.conf: nameserver 192.168.29.1
+00:00:00.139154 nspr-2   NAT: resolv.conf: nameserver 2405:201:4005:6956::c0a8:1d01
+00:00:00.139161 nspr-2   HostDnsMonitor: updating information
+00:00:00.139170 nspr-2   HostDnsMonitor: old information
+00:00:00.139172 nspr-2     no server entries
+00:00:00.139175 nspr-2     no domain set
+00:00:00.139176 nspr-2     no search string entries
+00:00:00.139178 nspr-2   HostDnsMonitor: new information
+00:00:00.139180 nspr-2     server 1: 192.168.29.1
+00:00:00.139182 nspr-2     server 2: 2405:201:4005:6956::c0a8:1d01
+00:00:00.139184 nspr-2     no domain set
+00:00:00.139186 nspr-2     no search string entries
+00:00:00.169459 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.170357 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.177883 nspr-2   Loading settings file "/home/x3ero0/VirtualBox VMs/pwn/pwn.vbox" with version "1.17-linux"
+00:00:00.184021 nspr-2   Loading settings file "/home/x3ero0/VirtualBox VMs/Windows7/Windows7.vbox" with version "1.15-linux"
+00:00:00.184720 nspr-2   VirtualBox: object created
+00:00:00.190874 nspr-2   Launched VM: 1409289920 pid: 1744 (0x6d0) frontend: headless name: pwn
+00:00:00.388517 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.409074 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f0u3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.432286 nspr-3   NetworkServiceRunning: started 'VBoxNetDHCP', pid 000006eb

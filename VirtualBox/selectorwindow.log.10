@@ -1,0 +1,20 @@
+00:00:00.239866 VirtualBox GUI VM Selector Window 6.1.26 r145957 linux.amd64 (Jul 29 2021 12:15:28) release log
+00:00:00.239868 Log opened 2021-10-19T07:02:12.808037000Z
+00:00:00.239868 Build Type: release
+00:00:00.239870 OS Product: Linux
+00:00:00.239871 OS Release: 5.13.19-2-MANJARO
+00:00:00.239872 OS Version: #1 SMP PREEMPT Sun Sep 19 21:31:53 UTC 2021
+00:00:00.239886 DMI Product Name: MS-7A15
+00:00:00.239892 DMI Product Version: 1.0
+00:00:00.239895 Firmware type: UEFI
+00:00:00.240286 Secure Boot: Disabled
+00:00:00.240314 Host RAM: 7919MB (7.7GB) total, 6511MB (6.3GB) available
+00:00:00.240316 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.240316 Process ID: 2852
+00:00:00.240317 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.240334 Qt version: 5.15.2
+00:00:00.326030 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.068140 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 965x10 x 945x1033
+00:00:01.083152 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.928327 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:00:23.560307 GUI: UIMediumEnumerator: Medium-enumeration finished!

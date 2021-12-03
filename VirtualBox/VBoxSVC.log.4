@@ -1,0 +1,51 @@
+00:00:00.003330 main     VirtualBox XPCOM Server 6.1.28 r147628 linux.amd64 (Oct 20 2021 21:54:22) release log
+00:00:00.003337 main     Log opened 2021-11-24T06:47:19.924735000Z
+00:00:00.003339 main     Build Type: release
+00:00:00.003344 main     OS Product: Linux
+00:00:00.003348 main     OS Release: 5.13.19-2-MANJARO
+00:00:00.003351 main     OS Version: #1 SMP PREEMPT Sun Sep 19 21:31:53 UTC 2021
+00:00:00.003394 main     DMI Product Name: MS-7A15
+00:00:00.003416 main     DMI Product Version: 1.0
+00:00:00.003427 main     Firmware type: UEFI
+00:00:00.003839 main     Secure Boot: Disabled
+00:00:00.003940 main     Host RAM: 7919MB (7.7GB) total, 5850MB (5.7GB) available
+00:00:00.003949 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.003951 main     Process ID: 14058
+00:00:00.003952 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.009003 main     IPC socket path: /tmp/.vbox-x3ero0-ipc/ipcd
+00:00:00.133633 nspr-2   VirtualBox: object creation starts
+00:00:00.133815 nspr-2   Home directory: '/home/x3ero0/.config/VirtualBox'
+00:00:00.134972 nspr-2   Loading settings file "/home/x3ero0/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.178809 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f0u3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.182241 nspr-2   HostDnsMonitor: initializing
+00:00:00.182749 nspr-2   NAT: resolv.conf: nameserver 192.168.29.1
+00:00:00.182784 nspr-2   NAT: resolv.conf: nameserver 2405:201:4005:6956::c0a8:1d01
+00:00:00.182813 nspr-2   HostDnsMonitor: updating information
+00:00:00.182848 nspr-2   HostDnsMonitor: old information
+00:00:00.182857 nspr-2     no server entries
+00:00:00.182865 nspr-2     no domain set
+00:00:00.182872 nspr-2     no search string entries
+00:00:00.182880 nspr-2   HostDnsMonitor: new information
+00:00:00.182887 nspr-2     server 1: 192.168.29.1
+00:00:00.182897 nspr-2     server 2: 2405:201:4005:6956::c0a8:1d01
+00:00:00.182905 nspr-2     no domain set
+00:00:00.182912 nspr-2     no search string entries
+00:00:00.255340 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.256174 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.263198 nspr-2   Loading settings file "/home/x3ero0/VirtualBox VMs/pwn/pwn.vbox" with version "1.17-linux"
+00:00:00.268284 nspr-2   Loading settings file "/home/x3ero0/VirtualBox VMs/Windows7/Windows7.vbox" with version "1.15-linux"
+00:00:00.269252 nspr-2   VirtualBox: object created
+00:00:00.275241 nspr-2   Launched VM: 603983552 pid: 14088 (0x3708) frontend: headless name: pwn
+00:00:00.460902 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.531221 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f0u3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.577741 nspr-4   NetworkServiceRunning: started 'VBoxNetDHCP', pid 00003722
+00:03:57.327488 nspr-2   Saving settings file "/home/x3ero0/VirtualBox VMs/pwn/pwn.vbox" with version "1.17-linux"
+00:04:02.415837 main     VirtualBox: object deletion starts
+00:04:02.415941 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/x3ero0/Other/VMs/pwn.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:04:02.416156 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:04:02.419365 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/x3ero0/VirtualBox VMs/Windows7/Windows7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:04:02.419725 main     NetworkServiceRunning: killing VBoxNetDHCP, pid 00003722...
+00:04:02.476847 main     HostDnsMonitor: shutting down ...
+00:04:02.489698 main     HostDnsMonitor: shut down
+00:04:07.489789 main     {00007f1f2801aa60} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:04:07.490139 main     VirtualBox: object deleted

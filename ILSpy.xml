@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ILSpy version="7.0.1.1">
+  <AssemblyLists>
+    <List name="(Default)">
+      <Assembly>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.17/System.Private.CoreLib.dll</Assembly>
+      <Assembly>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.17/System.Private.Uri.dll</Assembly>
+      <Assembly>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.17/System.Linq.dll</Assembly>
+      <Assembly>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.17/System.Private.Xml.dll</Assembly>
+      <Assembly>/mnt/ntfs/CTFs/DeadFace_CTF_2021/Rev/CerealKiller2/re02.exe</Assembly>
+    </List>
+  </AssemblyLists>
+</ILSpy>

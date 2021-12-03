@@ -1,0 +1,22 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+text/plain=nvim-qt.desktop
+application/vnd.sqlite3=binaryninja.desktop
+inode/directory=thunar.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-OB4OD1.desktop
+
+[Added Associations]
+text/x-python=nvim-qt.desktop;
+text/html=firefox.desktop;
+application/pdf=google-chrome.desktop;
+application/x-ms-dos-executable=wine.desktop;
+text/plain=nvim-qt.desktop;wine-extension-txt.desktop;
+image/png=pinta.desktop;feh.desktop;
+application/zip=engrampa.desktop;
+application/vnd.sqlite3=binaryninja.desktop;
+application/octet-stream=ida.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-OB4OD1.desktop;
