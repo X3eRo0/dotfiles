@@ -9,14 +9,14 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=bd2a80be-1620-4ec7-afe1-2f28f5b1a183,m=2b138427-0896-4916-824e-ec754c3ba9d5"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=pwn"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="967,14,939,1025"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="n=GLOBAL"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="19,89,1892,1012"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/x3ero0/Downloads/Windows 7 Ultimate with SP1 X64 Genuine ISO Untouched + Windows7 USB DVD Tool [h33t][iahq76]"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/x3ero0/Other/VMS"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/x3ero0/Downloads/Windows 7 Ultimate with SP1 X64 Genuine ISO Untouched + Windows7 USB DVD Tool [h33t][iahq76]/en_windows_7_ultimate_with_sp1_x64_dvd_u_677332.iso,/home/x3ero0/tools/VMs/ubuntu-20.04.3-desktop-amd64.iso,/home/x3ero0/Other/VMS/windows10_21h1.iso"/>
       <ExtraDataItem name="GUI/RecentListHD" value="/home/x3ero0/Other/VMS/Windows.vdi"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="372,566"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="750,1141"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="remindAboutMouseIntegration,remindAboutAutoCapture,confirmInputCapture,confirmPowerOffMachine"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
@@ -25,8 +25,7 @@
       <ExtraDataItem name="HostOnly/vboxnet0/IPNetMask" value="255.255.255.0"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{bd2a80be-1620-4ec7-afe1-2f28f5b1a183}" src="/home/x3ero0/VirtualBox VMs/pwn/pwn.vbox"/>
-      <MachineEntry uuid="{2b138427-0896-4916-824e-ec754c3ba9d5}" src="/home/x3ero0/VirtualBox VMs/Windows7/Windows7.vbox"/>
+      <MachineEntry uuid="{9f308015-0ce7-45c5-a8bb-a714dc18a9f3}" src="/home/x3ero0/VirtualBox VMs/Kali-Linux-2021.4a-virtualbox-amd64/Kali-Linux-2021.4a-virtualbox-amd64.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

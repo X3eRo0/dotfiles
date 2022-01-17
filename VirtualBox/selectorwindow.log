@@ -1,18 +1,20 @@
-00:00:00.570890 VirtualBox GUI VM Selector Window 6.1.28 r147628 linux.amd64 (Oct 20 2021 21:54:22) release log
-00:00:00.570893 Log opened 2021-11-27T13:46:59.395059000Z
-00:00:00.570894 Build Type: release
-00:00:00.570897 OS Product: Linux
-00:00:00.570899 OS Release: 5.13.19-2-MANJARO
-00:00:00.570900 OS Version: #1 SMP PREEMPT Sun Sep 19 21:31:53 UTC 2021
-00:00:00.570925 DMI Product Name: MS-7A15
-00:00:00.570937 DMI Product Version: 1.0
-00:00:00.570943 Firmware type: UEFI
-00:00:00.571144 Secure Boot: Disabled
-00:00:00.571193 Host RAM: 7919MB (7.7GB) total, 3269MB (3.1GB) available
-00:00:00.571197 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.571198 Process ID: 22039
-00:00:00.571199 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.571228 Qt version: 5.15.2
-00:00:00.795821 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:01.870089 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 964x11 x 939x1025
-00:00:01.924556 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.284100 VirtualBox GUI VM Selector Window 6.1.30 r148432 linux.amd64 (Nov 22 2021 19:44:56) release log
+00:00:00.284103 Log opened 2021-12-30T13:13:05.005739000Z
+00:00:00.284103 Build Type: release
+00:00:00.284105 OS Product: Linux
+00:00:00.284107 OS Release: 5.15.5-1-rt22-MANJARO
+00:00:00.284108 OS Version: #1 SMP PREEMPT_RT Wed Dec 1 16:28:32 CET 2021
+00:00:00.284127 DMI Product Name: MS-7A15
+00:00:00.284137 DMI Product Version: 1.0
+00:00:00.284142 Firmware type: UEFI
+00:00:00.284150 Secure Boot: Disabled
+00:00:00.284185 Host RAM: 7919MB (7.7GB) total, 6159MB (6.0GB) available
+00:00:00.284188 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.284189 Process ID: 26937
+00:00:00.284189 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.284212 Qt version: 5.15.2
+00:00:00.316533 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.722947 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x31 x 1920x1049
+00:00:00.745254 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:12.702462 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:12.729179 GUI: UIMediumEnumerator: Medium-enumeration finished!

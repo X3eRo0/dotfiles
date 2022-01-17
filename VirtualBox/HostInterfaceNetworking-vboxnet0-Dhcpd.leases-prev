@@ -2,6 +2,6 @@
 <Leases version="1.0">
   <Lease mac="08:00:27:d3:c6:5b" id="01080027d3c65b" network="0.0.0.0" state="acked">
     <Address value="192.168.56.101"/>
-    <Time issued="1638508273" expiration="600"/>
+    <Time issued="1639302266" expiration="600"/>
   </Lease>
 </Leases>

@@ -1,0 +1,279 @@
+03:43:18 PM.646: CPU Name: Intel(R) Core(TM) i5-6402P CPU @ 2.80GHz
+03:43:18 PM.646: CPU Speed: 2800.000MHz
+03:43:18 PM.658: Physical Cores: 4, Logical Cores: 4
+03:43:18 PM.658: Physical Memory: 7919MB Total, 481MB Free
+03:43:18 PM.658: Kernel Version: Linux 5.15.7-1-rt23-MANJARO
+03:43:18 PM.659: Distribution: "Manjaro Linux" Unknown
+03:43:18 PM.659: Session Type: x11
+03:43:18 PM.659: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+03:43:18 PM.661: Portable mode: false
+03:43:18 PM.789: OBS 27.1.3-3 (linux)
+03:43:18 PM.789: ---------------------------------
+03:43:18 PM.789: ---------------------------------
+03:43:18 PM.789: audio settings reset:
+03:43:18 PM.789: 	samples per sec: 48000
+03:43:18 PM.789: 	speakers:        2
+03:43:18 PM.791: ---------------------------------
+03:43:18 PM.791: Initializing OpenGL...
+03:43:18 PM.876: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 750 Ti/PCIe/SSE2
+03:43:18 PM.876: OpenGL loaded successfully, version 3.3.0 NVIDIA 495.44, shading language 3.30 NVIDIA via Cg compiler
+03:43:18 PM.887: ---------------------------------
+03:43:18 PM.887: video settings reset:
+03:43:18 PM.887: 	base resolution:   1920x1080
+03:43:18 PM.887: 	output resolution: 1920x1080
+03:43:18 PM.887: 	downscale filter:  Bicubic
+03:43:18 PM.887: 	fps:               60/1
+03:43:18 PM.887: 	format:            NV12
+03:43:18 PM.887: 	YUV mode:          709/Partial
+03:43:18 PM.887: NV12 texture support not available
+03:43:18 PM.888: Audio monitoring device:
+03:43:18 PM.888: 	name: Default
+03:43:18 PM.888: 	id: default
+03:43:18 PM.888: ---------------------------------
+03:43:18 PM.890: Failed to load 'en-US' text for module: 'decklink-captions.so'
+03:43:18 PM.891: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+03:43:18 PM.963: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+03:43:18 PM.963: No blackmagic support
+03:43:18 PM.972: v4l2loopback not installed, virtual camera disabled
+03:43:18 PM.977: NVENC supported
+03:43:18 PM.977: FFMPEG VAAPI supported
+03:43:18 PM.986: ---------------------------------
+03:43:18 PM.987:   Loaded Modules:
+03:43:18 PM.987:     text-freetype2.so
+03:43:18 PM.987:     sndio.so
+03:43:18 PM.987:     rtmp-services.so
+03:43:18 PM.987:     obs-x264.so
+03:43:18 PM.987:     obs-transitions.so
+03:43:18 PM.987:     obs-outputs.so
+03:43:18 PM.987:     obs-libfdk.so
+03:43:18 PM.987:     obs-filters.so
+03:43:18 PM.987:     obs-ffmpeg.so
+03:43:18 PM.987:     linux-v4l2.so
+03:43:18 PM.987:     linux-pulseaudio.so
+03:43:18 PM.987:     linux-jack.so
+03:43:18 PM.987:     linux-decklink.so
+03:43:18 PM.987:     linux-capture.so
+03:43:18 PM.987:     linux-alsa.so
+03:43:18 PM.987:     image-source.so
+03:43:18 PM.987:     frontend-tools.so
+03:43:18 PM.987:     decklink-ouput-ui.so
+03:43:18 PM.987:     decklink-captions.so
+03:43:18 PM.987: ---------------------------------
+03:43:18 PM.987: ==== Startup complete ===============================================
+03:43:18 PM.991: All scene data cleared
+03:43:18 PM.991: ------------------------------------------------
+03:43:18 PM.996: pulse-input: Server name: 'pulseaudio 15.0'
+03:43:18 PM.997: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:43:18 PM.997: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+03:43:18 PM.997: [Loaded global audio device]: 'Desktop Audio'
+03:43:18 PM.997: pulse-input: Server name: 'pulseaudio 15.0'
+03:43:18 PM.997: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:43:18 PM.997: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+03:43:18 PM.997: [Loaded global audio device]: 'Mic/Aux'
+03:43:18 PM.998: xshm-input: Geometry 1920x1080 @ 0,0
+03:43:18 PM.999: Switched to scene 'Scene'
+03:43:18 PM.999: ------------------------------------------------
+03:43:18 PM.999: Loaded scenes:
+03:43:18 PM.999: - scene 'Scene':
+03:43:18 PM.999:     - source: 'Mic/Aux' (pulse_input_capture)
+03:43:18 PM.999:     - source: 'Desktop Audio' (pulse_output_capture)
+03:43:18 PM.999:     - source: 'Screen Capture (XSHM)' (xshm_input)
+03:43:18 PM.999: ------------------------------------------------
+03:43:21 PM.783: ---------------------------------
+03:43:21 PM.783: [NVENC encoder: 'simple_h264_stream'] settings:
+03:43:21 PM.783: 	rate_control: CBR
+03:43:21 PM.783: 	bitrate:      10000
+03:43:21 PM.783: 	cqp:          0
+03:43:21 PM.783: 	keyint:       120
+03:43:21 PM.783: 	preset:       hq
+03:43:21 PM.783: 	profile:      high
+03:43:21 PM.783: 	width:        1920
+03:43:21 PM.783: 	height:       1080
+03:43:21 PM.783: 	2-pass:       false
+03:43:21 PM.783: 	b-frames:     2
+03:43:21 PM.783: 	psycho-aq:    1
+03:43:21 PM.783: 	GPU:          0
+03:43:21 PM.783: 
+03:43:21 PM.962: [NVENC encoder: 'simple_h264_stream'] Failed to open NVENC codec: Cannot allocate memory
+03:43:21 PM.962: [NVENC encoder] nvenc_create_internal failed, trying again without Psycho Visual Tuning
+03:43:21 PM.962: ---------------------------------
+03:43:21 PM.962: [NVENC encoder: 'simple_h264_stream'] settings:
+03:43:21 PM.962: 	rate_control: CBR
+03:43:21 PM.962: 	bitrate:      10000
+03:43:21 PM.962: 	cqp:          0
+03:43:21 PM.962: 	keyint:       120
+03:43:21 PM.962: 	preset:       hq
+03:43:21 PM.962: 	profile:      high
+03:43:21 PM.962: 	width:        1920
+03:43:21 PM.962: 	height:       1080
+03:43:21 PM.962: 	2-pass:       false
+03:43:21 PM.962: 	b-frames:     2
+03:43:21 PM.962: 	psycho-aq:    0
+03:43:21 PM.962: 	GPU:          0
+03:43:21 PM.962: 
+03:43:22 PM.118: [NVENC encoder: 'simple_h264_stream'] Failed to open NVENC codec: Cannot allocate memory
+03:43:22 PM.118: Stream output type 'rtmp_output' failed to start!  Last Error: Failed to open NVENC codec: Cannot allocate memory
+03:43:22 PM.118: 
+03:43:22 PM.118: Please check your video drivers are up to date.
+03:45:04 PM.102: Settings changed (outputs)
+03:45:04 PM.102: ------------------------------------------------
+03:45:07 PM.227: ---------------------------------
+03:45:07 PM.227: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+03:45:07 PM.231: [x264 encoder: 'simple_h264_stream'] settings:
+03:45:07 PM.231: 	rate_control: CBR
+03:45:07 PM.231: 	bitrate:      10000
+03:45:07 PM.231: 	buffer size:  10000
+03:45:07 PM.231: 	crf:          23
+03:45:07 PM.231: 	fps_num:      60
+03:45:07 PM.231: 	fps_den:      1
+03:45:07 PM.231: 	width:        1920
+03:45:07 PM.231: 	height:       1080
+03:45:07 PM.231: 	keyint:       120
+03:45:07 PM.231: 
+03:45:07 PM.258: libfdk_aac encoder created
+03:45:07 PM.258: libfdk_aac bitrate: 160, channels: 2
+03:45:07 PM.258: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+03:45:08 PM.440: [rtmp stream: 'simple_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 successful
+03:45:08 PM.447: ==== Streaming Start ===============================================
+03:45:42 PM.321: adding 85 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Desktop Audio)
+03:45:42 PM.321: 
+03:49:57 PM.456: WriteN, RTMP send error 32 (4097 bytes)
+03:49:57 PM.456: WriteN, RTMP send error 32 (59 bytes)
+03:49:57 PM.456: WriteN, RTMP send error 9 (42 bytes)
+03:49:57 PM.456: [rtmp stream: 'simple_stream'] Disconnected from rtmps://a.rtmps.youtube.com:443/live2
+03:49:57 PM.456: Output 'simple_stream': stopping
+03:49:57 PM.456: Output 'simple_stream': Total frames output: 5415 (7867 attempted)
+03:49:57 PM.456: Output 'simple_stream': Total drawn frames: 15518 (17411 attempted)
+03:49:57 PM.456: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 1893 (10.9%)
+03:49:57 PM.456: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 2452 (31.2%)
+03:49:57 PM.456: Output 'simple_stream':  Reconnecting in 10 seconds..
+03:49:57 PM.456: [rtmp stream: 'simple_stream'] Freeing 896 remaining packets
+03:49:57 PM.481: Video stopped, number of skipped frames due to encoding lag: 7219/7889 (91.5%)
+03:49:57 PM.680: libfdk_aac encoder destroyed
+03:50:07 PM.462: ---------------------------------
+03:50:07 PM.462: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+03:50:07 PM.462: [x264 encoder: 'simple_h264_stream'] settings:
+03:50:07 PM.462: 	rate_control: CBR
+03:50:07 PM.462: 	bitrate:      10000
+03:50:07 PM.462: 	buffer size:  10000
+03:50:07 PM.462: 	crf:          23
+03:50:07 PM.462: 	fps_num:      60
+03:50:07 PM.462: 	fps_den:      1
+03:50:07 PM.462: 	width:        1920
+03:50:07 PM.462: 	height:       1080
+03:50:07 PM.462: 	keyint:       120
+03:50:07 PM.462: 
+03:50:07 PM.473: libfdk_aac encoder created
+03:50:07 PM.473: libfdk_aac bitrate: 160, channels: 2
+03:50:07 PM.473: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+03:50:09 PM.743: [rtmp stream: 'simple_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 successful
+03:53:08 PM.278: [rtmp stream: 'simple_stream'] User stopped the stream
+03:53:08 PM.279: Output 'simple_stream': stopping
+03:53:08 PM.279: Output 'simple_stream': Total frames output: 3725 (6222 attempted)
+03:53:08 PM.279: Output 'simple_stream': Total drawn frames: 9809 (10849 attempted)
+03:53:08 PM.279: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 1040 (9.6%)
+03:53:08 PM.279: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 2497 (40.1%)
+03:53:08 PM.280: [rtmp stream: 'simple_stream'] Freeing 391 remaining packets
+03:53:08 PM.285: ==== Streaming Stop ================================================
+03:53:08 PM.337: Video stopped, number of skipped frames due to encoding lag: 5990/6245 (95.9%)
+03:53:08 PM.422: libfdk_aac encoder destroyed
+03:53:18 PM.601: ==== Shutting down ==================================================
+03:53:18 PM.625: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+03:53:18 PM.625: pulse-input: Got 319170 packets with 26441078 frames
+03:53:18 PM.628: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+03:53:18 PM.629: pulse-input: Got 39185 packets with 26444152 frames
+03:53:18 PM.630: All scene data cleared
+03:53:18 PM.630: ------------------------------------------------
+03:53:18 PM.685: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560066
+03:53:18 PM.685: Failed to make context current.
+03:53:18 PM.689: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560068
+03:53:18 PM.689: Failed to make context current.
+03:53:18 PM.690: Failed to fetch parent window geometry!
+03:53:18 PM.692: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 152, Minor opcode: BadLength (poly request too large or internal Xlib length error), Serial: 560070
+03:53:18 PM.692: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: BadAlloc (insufficient resources for operation), Serial: 560071
+03:53:18 PM.692: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560073
+03:53:18 PM.692: Failed to make context current.
+03:53:18 PM.692: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560075
+03:53:18 PM.692: Failed to make context current.
+03:53:18 PM.693: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560077
+03:53:18 PM.693: Failed to make context current.
+03:53:18 PM.693: Failed to fetch parent window geometry!
+03:53:18 PM.693: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 152, Minor opcode: BadLength (poly request too large or internal Xlib length error), Serial: 560079
+03:53:18 PM.693: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: BadAlloc (insufficient resources for operation), Serial: 560080
+03:53:18 PM.693: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560082
+03:53:18 PM.693: Failed to make context current.
+03:53:18 PM.696: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560084
+03:53:18 PM.696: Failed to make context current.
+03:53:18 PM.697: X Error: GLXBadDrawable, Major opcode: 152, Minor opcode: 26, Serial: 560086
+03:53:18 PM.697: Failed to make context current.
+03:53:18 PM.771: [Scripting] Total detached callbacks: 0
+03:53:18 PM.771: Freeing OBS context data
+03:53:18 PM.816: == Profiler Results =============================
+03:53:18 PM.816: run_program_init: 563.957 ms
+03:53:18 PM.816:  ┣OBSApp::AppInit: 3.221 ms
+03:53:18 PM.816:  ┃ ┗OBSApp::InitLocale: 1.05 ms
+03:53:18 PM.816:  ┗OBSApp::OBSInit: 504.214 ms
+03:53:18 PM.816:    ┣obs_startup: 26.1 ms
+03:53:18 PM.816:    ┗OBSBasic::OBSInit: 349.833 ms
+03:53:18 PM.816:      ┣OBSBasic::InitBasicConfig: 0.091 ms
+03:53:18 PM.816:      ┣OBSBasic::ResetAudio: 0.105 ms
+03:53:18 PM.816:      ┣OBSBasic::ResetVideo: 98.234 ms
+03:53:18 PM.816:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+03:53:18 PM.816:      ┣OBSBasic::InitHotkeys: 0.027 ms
+03:53:18 PM.816:      ┣obs_load_all_modules: 98.812 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(decklink-captions.so): 0.022 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.409 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(frontend-tools.so): 64.563 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(linux-capture.so): 0.395 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(linux-decklink.so): 0.109 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(linux-v4l2.so): 5.109 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.443 ms
+03:53:18 PM.816:      ┃ ┃ ┗nvenc_check: 0.398 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(obs-filters.so): 0.014 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(obs-outputs.so): 0.001 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(rtmp-services.so): 0.588 ms
+03:53:18 PM.816:      ┃ ┣obs_init_module(sndio.so): 0.002 ms
+03:53:18 PM.816:      ┃ ┗obs_init_module(text-freetype2.so): 0.015 ms
+03:53:18 PM.816:      ┣OBSBasic::ResetOutputs: 0.09 ms
+03:53:18 PM.816:      ┣OBSBasic::CreateHotkeys: 0.028 ms
+03:53:18 PM.816:      ┣OBSBasic::InitService: 1.162 ms
+03:53:18 PM.816:      ┣OBSBasic::InitPrimitives: 0.825 ms
+03:53:18 PM.816:      ┗OBSBasic::Load: 13.46 ms
+03:53:18 PM.816: obs_hotkey_thread(25 ms): min=0.095 ms, median=0.658 ms, max=131.182 ms, 99th percentile=13.186 ms, 99.767% below 25 ms
+03:53:18 PM.816: audio_thread(Audio): min=0 ms, median=0.859 ms, max=234.312 ms, 99th percentile=16.988 ms
+03:53:18 PM.816:  ┗receive_audio: min=0.002 ms, median=0.727 ms, max=161.625 ms, 99th percentile=18.594 ms, 0.844078 calls per parent call
+03:53:18 PM.816:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=21.581 ms, 99th percentile=0.004 ms
+03:53:18 PM.816:    ┗do_encode: min=0.097 ms, median=0.721 ms, max=161.619 ms, 99th percentile=18.573 ms
+03:53:18 PM.816:      ┣encode(simple_aac): min=0.088 ms, median=0.631 ms, max=161.331 ms, 99th percentile=16.947 ms
+03:53:18 PM.816:      ┗send_packet: min=0.001 ms, median=0.055 ms, max=49.587 ms, 99th percentile=2.019 ms
+03:53:18 PM.816: obs_graphics_thread(16.6667 ms): min=0.259 ms, median=13.038 ms, max=421.378 ms, 99th percentile=45.966 ms, 73.3186% below 16.667 ms
+03:53:18 PM.816:  ┣tick_sources: min=0.001 ms, median=9.931 ms, max=221.34 ms, 99th percentile=32.96 ms
+03:53:18 PM.817:  ┣output_frame: min=0.092 ms, median=0.854 ms, max=199.009 ms, 99th percentile=10.865 ms
+03:53:18 PM.817:  ┃ ┣gs_context(video->graphics): min=0.092 ms, median=0.833 ms, max=199.004 ms, 99th percentile=10.728 ms
+03:53:18 PM.817:  ┃ ┃ ┣render_video: min=0.01 ms, median=0.457 ms, max=172.999 ms, 99th percentile=7.968 ms
+03:53:18 PM.817:  ┃ ┃ ┃ ┣render_main_texture: min=0.006 ms, median=0.257 ms, max=103.814 ms, 99th percentile=2.608 ms
+03:53:18 PM.817:  ┃ ┃ ┃ ┣render_convert_texture: min=0.049 ms, median=0.112 ms, max=87.262 ms, 99th percentile=1.666 ms, 0.762474 calls per parent call
+03:53:18 PM.817:  ┃ ┃ ┃ ┗stage_output_texture: min=0.024 ms, median=0.062 ms, max=92.202 ms, 99th percentile=6.883 ms, 0.762474 calls per parent call
+03:53:18 PM.817:  ┃ ┃ ┣gs_flush: min=0 ms, median=0.009 ms, max=26.262 ms, 99th percentile=0.818 ms
+03:53:18 PM.817:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=6.81 ms, 99th percentile=0.031 ms, 0.762474 calls per parent call
+03:53:18 PM.817:  ┃ ┗output_video_data: min=0 ms, median=0.001 ms, max=20.776 ms, 99th percentile=1.252 ms, 0.762414 calls per parent call
+03:53:18 PM.817:  ┗render_displays: min=0.052 ms, median=0.845 ms, max=193.245 ms, 99th percentile=11.725 ms
+03:53:18 PM.817: OBSBasic::ResetOutputs: 1.892 ms
+03:53:18 PM.817: video_thread(video): min=0.001 ms, median=3.783 ms, max=51201.9 ms, 99th percentile=16809.3 ms
+03:53:18 PM.817:  ┗receive_video: min=1.833 ms, median=14.428 ms, max=973.341 ms, 99th percentile=249.751 ms, 15.5512 calls per parent call
+03:53:18 PM.817:    ┗do_encode: min=1.832 ms, median=14.427 ms, max=973.34 ms, 99th percentile=249.75 ms
+03:53:18 PM.817:      ┣encode(simple_h264_stream): min=1.822 ms, median=14.153 ms, max=972.3 ms, 99th percentile=249.622 ms
+03:53:18 PM.817:      ┗send_packet: min=0.001 ms, median=0.065 ms, max=52.801 ms, 99th percentile=3.208 ms
+03:53:18 PM.817: =================================================
+03:53:18 PM.817: == Profiler Time Between Calls ==================
+03:53:18 PM.817: obs_hotkey_thread(25 ms): min=25.172 ms, median=25.907 ms, max=156.447 ms, 30.2157% within ±2% of 25 ms (0% lower, 69.7843% higher)
+03:53:18 PM.817: obs_graphics_thread(16.6667 ms): min=6.067 ms, median=16.668 ms, max=425.421 ms, 40.9294% within ±2% of 16.667 ms (28.0025% lower, 31.0681% higher)
+03:53:18 PM.817: =================================================
+03:53:19 PM.069: Number of memory leaks: 0
